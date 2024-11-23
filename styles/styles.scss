@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background: linear-gradient(180deg, #E8F5C8 0%, #ffffff 97%);
+    padding: 2rem;
+    nav{
+        display: flex;
+        flex-direction: column;  // um abaixo do outro
+        align-items: center;
+        gap: 1.6rem;
+        .linha{
+            border-top: 1px solid black;
+            width: 80%;
+        }
+        ul{
+            display: inline-flex;
+            gap: 2rem;
+            list-style-type: none;
+        }
+        a{
+            text-decoration: none;
+            color: #0C0421;
+            font-weight: 500;
+            font-family: 'Montserrat', sans-serif;
+        }
+    }
+}

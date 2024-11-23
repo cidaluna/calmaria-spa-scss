@@ -70,3 +70,26 @@ header {
     }
   }
 }
+
+@media screen and (max-width: 868px){
+  #home{
+    max-width: 100%;
+    margin: 0 auto;
+    @include mixins.margem-central(100%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    .textos-home{
+      max-width: 95%;
+      h1{
+        font-size: 1rem;
+      }
+    }
+    .img-home{
+      max-width: 95%;
+      img{
+        width: 100%;
+      }
+    }
+  }
+}

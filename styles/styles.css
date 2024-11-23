@@ -78,6 +78,29 @@ header #home .img-home img {
   width: 100%;
 }
 
+@media screen and (max-width: 868px) {
+  #home {
+    max-width: 100%;
+    margin: 0 auto;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  #home .textos-home {
+    max-width: 95%;
+  }
+  #home .textos-home h1 {
+    font-size: 1rem;
+  }
+  #home .img-home {
+    max-width: 95%;
+  }
+  #home .img-home img {
+    width: 100%;
+  }
+}
 #nosso-espaco {
   margin: 0 auto;
   width: 80%;
@@ -114,6 +137,31 @@ header #home .img-home img {
   transition: 2s;
 }
 
+@media screen and (max-width: 868px) {
+  #nosso-espaco {
+    margin: 0 auto;
+    width: 100%;
+  }
+  #nosso-espaco .detalhes {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #nosso-espaco .detalhes img {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  #nosso-espaco .detalhes .imgs-espaco, #nosso-espaco .detalhes .espaco-textos {
+    max-width: 98%;
+    margin: 0 auto;
+    padding: 0.5rem 0;
+  }
+  #nosso-espaco .detalhes .espaco-textos .separador {
+    width: 90%;
+  }
+}
 #servico {
   background: linear-gradient(180deg, #E8F5C8 0%, #FFFFFF 96.87%);
   padding: 5rem 0;
@@ -142,11 +190,32 @@ header #home .img-home img {
   color: #241842;
 }
 
+@media screen and (max-width: 868px) {
+  #servico {
+    padding: 1rem 0;
+  }
+  #servico .cards {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #servico .cards .card {
+    padding: 2rem;
+    max-width: 70%;
+  }
+}
 #desconto {
   display: flex;
   align-items: center;
   justify-content: space-between;
   text-align: center;
+}
+#desconto img {
+  display: flex;
+  max-width: 100%;
 }
 #desconto h4 {
   font-family: "Krona One", sans-serif;
@@ -185,6 +254,47 @@ header #home .img-home img {
   border: none;
 }
 
+@media screen and (max-width: 868px) {
+  #desconto {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  #desconto img {
+    display: none;
+  }
+  #desconto .desconto-form {
+    max-width: 98%;
+    margin: 0 auto;
+    padding: 1rem 0;
+  }
+  #desconto .input-btn {
+    max-width: 100%;
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+    display: inline-flex;
+  }
+  #desconto .input-btn input {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
+    color: #241842;
+    max-width: 58.5%;
+    border: none;
+    outline: none;
+    padding: 1rem;
+  }
+  #desconto .input-btn button {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
+    color: white;
+    max-width: 31.5%;
+    background: #4e75ff;
+    border: none;
+  }
+}
 #contatos {
   margin: 0 auto;
   width: 80%;
@@ -256,6 +366,43 @@ header #home .img-home img {
   background: #4e75ff;
 }
 
+@media screen and (max-width: 868px) {
+  #contatos {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+  }
+  #contatos .contatos-imgs {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #contatos .contatos-imgs img {
+    width: 100%;
+  }
+  #contatos .contatos-imgs img:nth-child(n+2) {
+    width: 47%;
+  }
+  #contatos .contatos-form {
+    max-width: 100%;
+    margin: 0 auto;
+    border-radius: 2rem;
+  }
+  #contatos .contatos-form .titulo {
+    font-family: "Krona One", sans-serif;
+    font-size: 1.9rem;
+    color: #4e75ff;
+  }
+  #contatos .contatos-form .infos, #contatos .contatos-form .inputs .form-group label {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
+    color: #241842;
+  }
+}
 footer {
   margin-top: 1rem;
   background: #E8F5C8;

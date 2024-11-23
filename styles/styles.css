@@ -25,14 +25,15 @@ header nav ul {
 }
 header nav a {
   text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
   color: #241842;
   font-weight: 500;
-  font-family: "Montserrat", sans-serif;
 }
 header #home {
   max-width: 1040px;
-  width: 80%;
   margin: 0 auto;
+  width: 80%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -51,15 +52,28 @@ header #home .textos-home h1 span {
 }
 header #home .textos-home .btn-main {
   background-color: #4e75ff;
+  font-family: "Montserrat", sans-serif;
   color: white;
-  padding: 24px;
+  padding: 10px 24px;
   border-radius: 40px;
   max-width: 280px;
   cursor: pointer;
+  font-size: 1.5rem;
+  border-color: #4e75ff;
+  border-style: none;
+  transition: 0.3s;
+}
+header #home .textos-home .btn-main:hover {
+  background-color: #4e75ff;
 }
 header #home .img-home {
   max-width: 474px;
 }
 header #home .img-home img {
   width: 100%;
+}
+
+#nosso-espaco {
+  margin: 0 auto;
+  width: 80%;
 }/*# sourceMappingURL=styles.css.map */

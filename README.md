@@ -16,3 +16,13 @@ Os pré processadores CSS como o SASS (Syntactically Awesome Style Sheets) são 
 - SASS/SCSS,
 - Figma,
 - Extensão Live SASS Compiler,
+
+Tela home Calmaria Spa:
+
+![Calmaria Spa com SASS/SCSS](./assets/calmaria-spa-scss-home-html.PNG)
+
+
+Fluxo origem SASS saída CSS:
+
+![SASS compiler](./assets/from-sass-to-css.png)
+

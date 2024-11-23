@@ -21,6 +21,10 @@ header {
       text-decoration: none;
       @include mixins.ff-fs-cl(variaveis.$ft-textos, 1rem, variaveis.$cor-primaria);
       font-weight: 500;
+      &:hover{
+        transition: 2s;
+        font-weight: 700;
+      }
     }
   }
   #home{
@@ -49,11 +53,12 @@ header {
         max-width: 280px;
         cursor: pointer;
         font-size: 1.5rem;
-        border-color: variaveis.$cor-secundaria;
+        border-color: variaveis.$cor-primaria;
         border-style: none;
         transition: 0.3s;
         &:hover{
-            background-color: variaveis.$cor-secundaria;
+            background-color: variaveis.$cor-primaria;
+            font-weight: 700;
         }
       }
     }
